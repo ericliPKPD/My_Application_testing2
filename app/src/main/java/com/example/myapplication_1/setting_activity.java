@@ -50,7 +50,7 @@ public class setting_activity extends AppCompatActivity {
         });
 
         // Night Switch
-        night_switch.setOnClickListener(new View.OnClickListener(){
+        night_switch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
                 if (night_switch.isChecked()){
@@ -61,8 +61,8 @@ public class setting_activity extends AppCompatActivity {
             }
         });
 
-        // Notification
-        notification.setOnClickListener(new View.OnClickListener(){
+        // Notification on
+        notification.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
                 String notification_on;
