@@ -21,7 +21,6 @@ public class activity_main extends AppCompatActivity implements SelectListener {
     DbOperation dbOperation;
     ArrayList<String> pid, pname, pprice, pfromshop;
     ProductAdapter productAdapter;
-
     Button btn1;
 
 
@@ -47,8 +46,9 @@ public class activity_main extends AppCompatActivity implements SelectListener {
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(activity_main.this, AddPage.class);
-                startActivity(intent);
+                // jump from setting page to add page
+                Intent Add = new Intent(activity_main.this, AddPage.class);
+                startActivity(Add);
             }
         });
 

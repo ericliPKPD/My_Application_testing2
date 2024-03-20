@@ -17,6 +17,10 @@
             android:exported="false"
             android:label="@string/title_activity_settings" />
         <activity
+            android:name=".information"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
             android:name=".activity_main"
             android:exported="true">
             <intent-filter>

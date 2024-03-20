@@ -74,7 +74,6 @@
             android:clickable="true"
             android:contentDescription="@android:string/copy"
             app:srcCompat="@android:drawable/ic_input_add" />
-
     </RelativeLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -113,6 +112,4 @@
             android:layout_gravity="right"
             android:text="Settings"/>
     </com.google.android.material.bottomnavigation.BottomNavigationView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
