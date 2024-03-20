@@ -37,7 +37,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
             android:layout_marginTop="16dp"
+            android:layout_marginBottom="18dp"
             android:gravity="center_vertical"
             android:orientation="vertical"
             android:queryHint="Search Products"
@@ -59,7 +61,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/list_item"
             android:layout_width="match_parent"
-            android:layout_height="551dp"
+            android:layout_height="550dp"
             android:foregroundGravity="center_vertical"
             android:paddingTop="?attr/actionBarSize" />
 
