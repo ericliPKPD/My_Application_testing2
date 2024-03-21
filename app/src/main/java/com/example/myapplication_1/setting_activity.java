@@ -26,8 +26,8 @@ public class setting_activity extends AppCompatActivity {
         // initialize variable
         back_btn = (Button) findViewById(R.id.cancel_button); // backward button
         info_btn = (Button) findViewById(R.id.info_button); // information page button
-        night_switch = findViewById(R.id.night_mode_switch);
-        notification = (Switch) findViewById(R.id.notification_main_column);
+        night_switch = findViewById(R.id.night_mode_switch); // night mode switch
+        notification = (Switch) findViewById(R.id.notification_main_column); // notification switch
 
         // Button for back to main page
         back_btn.setOnClickListener(new View.OnClickListener() {
@@ -53,7 +53,7 @@ public class setting_activity extends AppCompatActivity {
         night_switch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                if (night_switch.isChecked()){
+                if (night_switch.isChecked()) {
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                 } else {
                   AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
