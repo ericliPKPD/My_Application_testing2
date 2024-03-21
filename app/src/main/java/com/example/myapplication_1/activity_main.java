@@ -22,7 +22,7 @@ public class activity_main extends AppCompatActivity implements SelectListener {
     ArrayList<String> pid, pname, pprice, pfromshop;
     ProductAdapter productAdapter;
     Button btn1;
-    Button btn2
+    Button btn2;
 
 
     @Override
