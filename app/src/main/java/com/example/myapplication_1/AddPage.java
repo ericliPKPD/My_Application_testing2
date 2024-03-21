@@ -35,7 +35,7 @@ public class AddPage extends AppCompatActivity {
                 operation.add_in(etx_name.getText().toString().trim(),
                         Integer.valueOf(etx_price.getText().toString().trim()) ,
                         etx_fromshop.getText().toString().trim());
-                Toast.makeText(getApplicationContext(), "Item added", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Item Added!", Toast.LENGTH_LONG).show();
             }
         });
 
