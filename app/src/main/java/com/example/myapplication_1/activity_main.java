@@ -22,6 +22,7 @@ public class activity_main extends AppCompatActivity implements SelectListener {
     ArrayList<String> pid, pname, pprice, pfromshop;
     ProductAdapter productAdapter;
     Button btn1;
+    Button btn2
 
 
     @Override
@@ -30,8 +31,8 @@ public class activity_main extends AppCompatActivity implements SelectListener {
         setContentView(R.layout.activity_main);
 
         // initialize variable (backward button)
-        Button btn1 =  findViewById(R.id.settings);
-        Button btn2 =  findViewById(R.id.Note);
+        btn1 =  findViewById(R.id.settings);
+        btn2 =  findViewById(R.id.Note);
         recyclerView = findViewById(R.id.list_item);
         add_button = findViewById(R.id.Add);
 
